@@ -1,0 +1,19 @@
+Projeto Estruturas
+
+Numero de elementos
+3
+
+Elemento    No inicial  No final    Mod. El (N/m2)  Largura (m)     Altura (m)  Ni (N/m)    Nf (N/m)    Qi (N/m)    Qf (N/m)
+1           1           2           25000000000.0   0.30            0.40        0.0         0.0         -1000.0     -1000.0
+2           2           3           25000000000.0   0.20            0.50        0.0         0.0         -2000.0     -2000.0
+3           3           4           25000000000.0   0.30            0.40        0.0         0.0         -1000.0     -1000.0
+
+Numero de nos
+4
+
+Configuração dos nós                Carregamentos nodais                Restrições (TRUE/FALSE)
+No          X (m)       Y (m)       Fx (kN)     Fy (kN)     M (kNm)     Direção x   Direção y   Rotação     
+1           0.0         0.0         0.0         0.0         0.0         TRUE        TRUE        TRUE
+2           0.0         2.0         10000.0     0.0         0.0         FALSE       FALSE       FALSE
+3           3.0         2.0         0.0         -5000.0     0.0         FALSE       FALSE       FALSE
+4           3.0         0.0         0.0         0.0         0.0         TRUE        TRUE        TRUE
